@@ -37,6 +37,7 @@ export const tagPageQuery = graphql`
     site {
       siteMetadata {
         title
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       }
     }
     allMarkdownRemark(limit: 1000) {
